@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(202, 44, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid-container{
+    display: grid;
+    background-color: aqua;
+    gap: 7px;
+    height: auto;
+    padding: 10px;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(5, 50px);
+}
+input[type="text"]{
+    grid-column: span 4;
+    outline: none;
+    background-color:  rgb(218, 210, 210);
+
+}
+button{
+    background-color: rgb(218, 210, 210);
+    outline: none;
+}
+.last{
+    height: 50px;
+}
+.equal{
+    grid-row: span 2;
+    
+}
+   
