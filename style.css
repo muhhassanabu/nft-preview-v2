@@ -39,12 +39,14 @@ main{
 .main-image{
     position: relative;
 }
+
 .image-1{
     height: 330px;
     width: 310px;
     border-radius: 10px;
     img{
         height: 100%;
+        width: 100%;
          border-radius: 11px;
     }
 }
