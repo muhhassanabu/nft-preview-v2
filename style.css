@@ -42,7 +42,8 @@ main{
 
 .image-1{
     height: 330px;
-    width: 310px;
+    width: 100%;
+    max-width: 320px;
     border-radius: 10px;
     img{
         height: 100%;
